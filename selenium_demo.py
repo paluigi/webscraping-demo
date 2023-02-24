@@ -9,7 +9,7 @@ opts.binary_location = chromium_path
 chromedriver_path = Service("C:\\Users\\Luigi\\Documents\\chrome-win\\chromedriver.exe")
 # driver = webdriver.Chrome(executable_path=chromedriver_path, chrome_options=opts)
 driver = webdriver.Chrome(service=chromedriver_path, options=opts)
-driver.get("https://unstats.un.org/bigdata/regional-hubs.cshtml")
+driver.get("https://unstats.un.org/bigdata/task-teams/sdgs/index.cshtml")
 
 time.sleep(5)
 # close the browser/driver
